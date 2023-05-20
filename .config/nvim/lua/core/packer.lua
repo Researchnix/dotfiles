@@ -21,15 +21,13 @@ return require('packer').startup(function(use)
 
   use 'vimwiki/vimwiki'
 
+
+
   use {
     'nvim-lualine/lualine.nvim',
     requires = { 'nvim-tree/nvim-web-devicons', opt = true },
     require('lualine').setup() -- this line ativates lualine
   }
-
-
-
-
 
 
 end)
